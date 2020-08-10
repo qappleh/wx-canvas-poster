@@ -12,19 +12,7 @@ wx-canvas-poster是一个生成二维码海报的组件，通过非常简单的�
 
 ## 安装
 
-#### 方式一.通过 npm 安装 (推荐)
-
-小程序已经支持使用 npm 安装第三方包，详见 [npm 支持](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html?search-key=npm)
-
-```
-# npm
-npm i wx-canvas-poster -S --production
-
-# yarn
-yarn add wx-canvas-poster --production
-```
-
-#### 方式二.下载代码
+#### 下载代码
 
 直接通过 git 下载 wx-canvas-poster 源代码，并将`miniprogram_dist`目录拷贝到自己的项目组件目录中
 
