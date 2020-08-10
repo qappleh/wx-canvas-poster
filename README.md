@@ -1,21 +1,14 @@
-# wxa-plugin-canvas
-小程序组件-小程序海报组件
-   <a href="https://www.npmjs.com/package/wxa-plugin-canvas"><img src="https://img.shields.io/npm/v/wxa-plugin-canvas.svg?style=flat" alt="npm"></a>
-   <a href="https://www.npmjs.com/package/wxa-plugin-canvas"><img src="https://img.shields.io/npm/dm/wxa-plugin-canvas.svg?style=flat" alt="npm"></a>
+# wx-canvas-poster
 
 ## 概述
-wxa-plugin-canvas是一个生成二维码海报的组件，通过非常简单的配置就可以生成精美的海报
+wx-canvas-poster是一个生成二维码海报的组件，通过非常简单的配置就可以生成精美的海报
 
 ## 生成效果
-<img width="300" src="https://github.com/jasondu/wxa-plugin-canvas/blob/master/demo.png"></img>
-
-## 组件原理说明文章
-
-https://juejin.im/post/5b7e48566fb9a01a1059543f
+<img width="300" src="https://github.com/qappleh/wx-canvas-poster/blob/master/demo.png"></img>
 
 ## 使用之前
 
-使用 wxa-plugin-canvas 前，请确保你已经学习过微信官方的 [小程序简易教程](https://mp.weixin.qq.com/debug/wxadoc/dev/) 和 [自定义组件介绍](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/)。
+使用 wx-canvas-poster 前，请确保你已经学习过微信官方的 [小程序简易教程](https://mp.weixin.qq.com/debug/wxadoc/dev/) 和 [自定义组件介绍](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component/)。
 
 ## 安装
 
@@ -25,22 +18,22 @@ https://juejin.im/post/5b7e48566fb9a01a1059543f
 
 ```
 # npm
-npm i wxa-plugin-canvas -S --production
+npm i wx-canvas-poster -S --production
 
 # yarn
-yarn add wxa-plugin-canvas --production
+yarn add wx-canvas-poster --production
 ```
 
 #### 方式二.下载代码
 
-直接通过 git 下载 wxa-plugin-canvas 源代码，并将`miniprogram_dist`目录拷贝到自己的项目组件目录中
+直接通过 git 下载 wx-canvas-poster 源代码，并将`miniprogram_dist`目录拷贝到自己的项目组件目录中
 
 ## 使用组件
 
 ```json
 {
   "usingComponents": {
-	"poster": "wxa-plugin-canvas/poster",
+	"poster": "wx-canvas-poster/poster",
   }
 }
 ```
@@ -205,11 +198,8 @@ Component({
 })
 ```
 
-## 赞赏
-<img width="350" src="https://github.com/jasondu/wxa-plugin-canvas/blob/master/zan.jpg"></img>
-
 ## 问题反馈
 
 有什么问题可以直接提issue
 
-[提issue](https://github.com/jasondu/wxa-plugin-canvas/issues/new)
+[提issue](https://github.com/qappleh/wx-canvas-poster/issues/new)
